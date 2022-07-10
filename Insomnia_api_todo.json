@@ -1,0 +1,260 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-07-10T18:31:47.274Z",
+    "__export_source": "insomnia.desktop.app:v2021.7.2",
+    "resources": [
+        {
+            "_id": "req_8cafa620e712410e914a15fd02d37b25",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654982741128,
+            "created": 1654981848543,
+            "url": "{{ _.url }}/tasks",
+            "name": "TaskIndex",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_ee176ae21e334b83bbad1f666445e648",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                },
+                {
+                    "id": "pair_85feb70f98e0481380a80e1b7b2320e1",
+                    "name": "Accept",
+                    "value": "application/json",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1654981848543,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "parentId": null,
+            "modified": 1654981782875,
+            "created": 1654981782875,
+            "name": "API Todo",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_f94b1affeede423da1b69fda4c94ebeb",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654982753143,
+            "created": 1654981894532,
+            "url": "{{ _.url }}/tasks/72456d5a-f42e-4618-acc8-4e40bb7a5ccf",
+            "name": "TaskShow",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_57b5990ca3c94042a0d3b0f12862db36",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                },
+                {
+                    "id": "pair_fc5dbe55cc5141c7a0f180a3097749fd",
+                    "name": "Accept",
+                    "value": "application/json",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1653089568696,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_4c3b4b1d50354b31bf0735bc933c4523",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654982762275,
+            "created": 1654982135254,
+            "url": "{{ _.url }}/tasks/fb53e423-3fd5-4587-870c-b314a3607f90",
+            "name": "TaskDestroy",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_706dd609daa248dea0aac79c2690edc5",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                },
+                {
+                    "id": "pair_e09d48e50dd54f53bbfaf8426bd2f886",
+                    "name": "Accept",
+                    "value": "application/json",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1652616498734.25,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ca8df91c573041b79dbf4b381adc4b0b",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1657477843276,
+            "created": 1654981911565,
+            "url": "{{ _.url }}/tasks",
+            "name": "TaskStore",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n \t\"title\" : \"Quarta tarefa\",\n\t\"desription\" : \"Descrição da tarefa\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_5b9db08b017e4a48940194e5762e7c7a",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                },
+                {
+                    "id": "pair_d49a7fae97d248ac90e52bddbbd2094a",
+                    "name": "Accept",
+                    "value": "application/json",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1652143428772.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_7f1bf0eda7784f80a51139aee2eb58c1",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1657477825569,
+            "created": 1654982018864,
+            "url": "{{ _.url }}/tasks/532d64cc-44e3-4914-ba0b-d737bd991a01",
+            "name": "TaskUpdate",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\" : \"Terceira tarefa\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_6a7963b7ad7e43e3a8bebb26ef46703f"
+                },
+                {
+                    "id": "pair_e6a2564ed5944cd6ad772ac06be497a1",
+                    "name": "Accept",
+                    "value": "application/json",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1651670358810.75,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_a860ea59db4231a33cad4838eb87d85de4e4d17e",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654981787930,
+            "created": 1654981782882,
+            "name": "Base Environment",
+            "data": {
+                "url": "https://api-food.dev.com"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "url"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1654981782882,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_a860ea59db4231a33cad4838eb87d85de4e4d17e",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654981782884,
+            "created": 1654981782884,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_1f35204da3514c9eb40bfa5c33066376",
+            "parentId": "wrk_633439d820904eefb45d0190b4cfe2f4",
+            "modified": 1654981782876,
+            "created": 1654981782876,
+            "fileName": "API Todo",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_c735d482269d40e0be92ea3109ed9543",
+            "parentId": "env_a860ea59db4231a33cad4838eb87d85de4e4d17e",
+            "modified": 1655037497443,
+            "created": 1654981800138,
+            "name": "development",
+            "data": {
+                "url": "https://api-todo.dev.com"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "url"
+                ]
+            },
+            "color": "#44ff00",
+            "isPrivate": false,
+            "metaSortKey": 1654981800139,
+            "_type": "environment"
+        }
+    ]
+}
